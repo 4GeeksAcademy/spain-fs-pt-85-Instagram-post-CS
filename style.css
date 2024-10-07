@@ -1,0 +1,25 @@
+.post-body {
+    width: 48%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post-header {
+    width: 46%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-html5 {
+    width: 5%;
+}
+
+.img-trespuntos {
+    width: 7%;
+    float: right;
+}
+
+.imagen {
+    width: 100%;
+    margin: auto;
+}
