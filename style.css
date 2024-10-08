@@ -1,25 +1,61 @@
+body {
+    background-color: black;
+    margin-top: 100px;
+    font-family: "Roboto", sans-serif;
+}
+
 .post-body {
-    width: 48%;
+    width: 450px;
+    height: 180px;
     margin-left: auto;
     margin-right: auto;
+    background-color: white;
 }
 
 .post-header {
-    width: 46%;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    width: 100%;
+}
+
+.header-text {
+    margin-left: 10px;
+}
+
+.img-principal {
+    width: 100%;
 }
 
 .img-html5 {
     width: 5%;
+    height: 5%;
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
 
 .img-trespuntos {
     width: 7%;
-    float: right;
+    height: 7%;
+    margin-top: 15px;
+    margin-right: 5px;
+    margin-left: auto;
 }
 
-.imagen {
-    width: 100%;
-    margin: auto;
+.img-coments {
+    width: 25%;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.img-guardar {
+    width: 6%;
+    float: right;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.post-text {
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 14px;
 }
