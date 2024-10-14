@@ -6,7 +6,6 @@ body {
 
 .post-body {
     width: 450px;
-    height: 180px;
     margin-left: auto;
     margin-right: auto;
     background-color: white;
@@ -15,6 +14,7 @@ body {
 .post-header {
     display: flex;
     width: 100%;
+    align-items: center;
 }
 
 .header-text {
@@ -25,37 +25,61 @@ body {
     width: 100%;
 }
 
-.img-html5 {
-    width: 5%;
-    height: 5%;
+.html5 {
+    width: 20px;
+    height: 20px;
     margin-left: 15px;
-    margin-top: 20px;
-    margin-bottom: 15px;
 }
 
-.img-trespuntos {
-    width: 7%;
-    height: 7%;
-    margin-top: 15px;
+.trespuntos {
+    width: 8px;
+    height: 8px;
     margin-right: 5px;
     margin-left: auto;
 }
 
-.img-coments {
-    width: 25%;
-    margin-left: 15px;
-    margin-top: 15px;
+.post-body-text {
+    height: 190px;
 }
 
-.img-guardar {
-    width: 6%;
-    float: right;
-    margin-right: 20px;
-    margin-top: 15px;
+.marcadores {
+    display: flex;
+}
+
+.corazon {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.comentario {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.avion {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.guardar {
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: 15px;
 }
 
 .post-text {
-    margin-top: 20px;
+    margin-top: 25px;
     margin-left: 15px;
+    margin-bottom: 10px;
     font-size: 14px;
 }
+
+
